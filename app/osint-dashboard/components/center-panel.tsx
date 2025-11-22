@@ -11,7 +11,7 @@ export default function CenterPanel() {
   return (
     <div className="flex-1 flex flex-col min-w-0">
       <ScrollArea className="flex-1">
-        <div className="p-6 space-y-6">
+        <div className="p-3 space-y-4 sm:p-4 sm:space-y-5 md:p-6 md:space-y-6">
           <CaseHeader investigation={mockInvestigation} />
           <POICard person={mockInvestigation.personOfInterest} />
           <CaseSummary investigation={mockInvestigation} />

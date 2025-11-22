@@ -1,4 +1,4 @@
-# OSINT research web app
+# OSINT Research Web App
 
 *Automatically synced with your [v0.app](https://v0.app) deployments*
 
@@ -7,24 +7,47 @@
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+This is an **OSINT Investigation Dashboard** built with Next.js 15, Tailwind CSS v4, shadcn/ui, and Rete.js. The application provides a professional interface for conducting open-source intelligence research with node-based canvas visualization and interactive data analysis tools.
 
-## Deployment
+For detailed project specifications and implementation guidelines, see [AGENT.md](AGENT.md).
+
+For security information, please review our [Security Policy](SECURITY.md).
+
+## Live Deployment
 
 Your project is live at:
 
 **[https://vercel.com/r1z/v0-osint-research-web-app](https://vercel.com/r1z/v0-osint-research-web-app)**
 
-## Build your app
+## Local Development
 
-Continue building your app on:
+To run this project locally:
+
+```bash
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Continue Building
+
+Keep building and iterating on your app at:
 
 **[https://v0.app/chat/jbFcy8QEIcU](https://v0.app/chat/jbFcy8QEIcU)**
 
 ## How It Works
 
 1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
+2. Deploy your changes from the v0 interface
 3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+4. Vercel automatically deploys the latest version from this repository
